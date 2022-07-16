@@ -1,0 +1,22 @@
+# a sample data object to explain how the field GUI works.
+# this is a simple key/value. it's called a simple in the GUI.
+state: Tennessee
+federal-district: 14
+state-district: 77
+# this is an array. it's called a list in the GUI.
+voters:
+  - Alice
+  - Bob
+  - John
+# this is an object. it's called an object in the GUI.
+objects:
+  # with an array as a property.
+  cars:
+    - Camaro
+    - Ferrari
+  # a key/value as the next property.
+  boats: no boats
+  # and another object as a property.
+  another_object:
+    prop1: value1
+    prop2: value2
