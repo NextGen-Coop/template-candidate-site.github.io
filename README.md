@@ -11,4 +11,5 @@ I barely know any Ruby; it's really only used for custom plugins which aren't av
 Clone this repo to your favorite working directory, and if Jekyll is installed already, you should be able to just run `jekyll serve` to start the server. If it encounters errors, you may need to run `bundle install` first. `jekyll serve --watch` sets up the server in a persistent, auto-updating state, where changes are regenerated automatically and errors will be spat to stdout.
 
 # Jekyll Admin #
-I just learned about and started using this, so I'm getting the hang of it. If you visit http://localhost:3000/admin it will enter into a UI where content can be managed, data can be entered, and files can be uploaded.
+~~I just learned about and started using this, so I'm getting the hang of it. If you visit http://localhost:3000/admin it will enter into a UI where content can be managed, data can be entered, and files can be uploaded.~~
+Currently disabled for the repo. It works nicely, but is using older libraries that are insecure, so it doesn't need to be part of the repo.
